@@ -1,0 +1,11 @@
+public class LuasSegitiga {
+    public static void main(String[] args) {
+        //input
+
+        int alas = 3;
+        int tinggi = 4;
+        int luas = (int) (0.5 * alas * tinggi);
+        System.out.println("Luas Segitiga :"+ luas);
+
+    }
+}

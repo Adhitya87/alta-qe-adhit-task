@@ -1,0 +1,16 @@
+public class FaktorBilangan {
+    public static void main(String[] args) {
+        int bilangan = 20;
+        //System.out.println("Faktor-faktornya:");
+        int tambah = 0;
+        for (int z = 0; z <= bilangan; z++) {
+            tambah++;
+            if (bilangan % tambah == 0) {
+                System.out.print(tambah /* tampilkan bilangan ketika nilainya
+                 * merupakan modulus dari nilai yang dicari
+                 */
+                        + " ");
+            }
+        }
+    }
+}
